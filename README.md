@@ -1,10 +1,10 @@
 # interactor-aria-patrol-client
 
-An Elixir client that connects to the Spatial Node Store server and walks an entity along a planned patrol route.
+An Elixir client that connects to the Spatial Node Store server and walks an entity along a patrol route.
 
 ## What it is for
 
-The client plans a route through its waypoints with `aria_patrol_solver` and sends movement intents over ENet, so the server stays authoritative over where the entity is. It also carries a locomotion test bot and the HDDL domains and problems its fixtures are generated from.
+The client orders its waypoints by nearest neighbour and sends movement intents over ENet, so the server stays authoritative over where the entity is. It also carries a locomotion test bot and the HDDL domains and problems its fixtures are generated from.
 
 ## Build and run
 
