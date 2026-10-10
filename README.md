@@ -17,4 +17,4 @@ mix patrol.run
 
 ## Licence
 
-The repository does not state a licence.
+MIT. See [LICENSE](LICENSE).
